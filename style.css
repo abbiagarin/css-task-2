@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(221, 186, 186);
+    height: 100vh;
+    width: 100vh;
+    color: white;
+    margin: 30px;
+    
+}
+
+li{
+  font-size: 30px;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  list-style: none;
+  letter-spacing: 3px;
+  
+}
+
+li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+li::before{
+    content: "\261B";
+    color: rgb(128, 0, 128);
+
+}    
+
+
+
+.table{
+    width:100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.table tr,th,td{
+    padding: 15px;
+}
+
+tr:nth-last-child(even){
+    background-color: rgb(80, 13, 80);
+}
